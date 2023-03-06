@@ -1,13 +1,14 @@
 import React from "react";
 import GoogleMapReact from 'google-map-react';
+import LocationMarker from "./LocationMarker";
 
 export default function Map(){
   const defaultProps = {
     center: {
-      lat: 10.99835602,
-      lng: 77.01502627
+      lat: 37.37015718405753,
+      lng: -459.40429687500006
     },
-    zoom: 11
+    zoom: 5
   };
 
   return (
@@ -17,8 +18,9 @@ export default function Map(){
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
-
+        {/* <LocationMarker lat={center.lat} lng={center.lng}></LocationMarker> */}
       </GoogleMapReact>
     </div>
   );
 }
+
