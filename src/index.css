@@ -1,0 +1,13 @@
+#root,
+html,
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
+.map {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
